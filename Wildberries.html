@@ -10,12 +10,15 @@
 		}
 		.container_card{
 			background-color: #ffffff;
-			width: 284px;
-			height: 588px;
+			width: 234px;
+			height: 470px;
 			margin: 8px;
 			position: relative;
 		}
 		.container_card:hover{
+			transition-timing-function: linear;
+    		transition-duration: 0.3s;
+    		height: 538px;
 			box-shadow: 0px 0px 20px #CDCDCD;
 		}
 		.text{
@@ -48,15 +51,15 @@
 		}
 		.img_Wildberies{
 			border-radius: 8px 8px 0 0;
-			width: 254px;
-			height: 352px;
+			width: 204px;
+			height: 312px;
 			margin: 14px;
 			border-radius: 1px 1px 1px 1px;
 		}
 		.button_buy{
 			margin-left: 8px;
 			margin-top: 8px;
-			background-color: #ffffff;
+			visibility: hidden;
 			color: #ffffff;
 			border-radius: 8px;
 			width: 110px;
@@ -68,11 +71,12 @@
     		transition-duration: 0.3s;
 			background-color: #cb11ab;
 			color: #ffffff;
+			visibility: visible;
 		}
 		.svg{
 			width: 23px;
 			position: absolute ;
-			margin-left: 233px;
+			margin-left: 193px;
 			margin-top: 23px;
 			visibility: hidden;
 			fill: #ffffff;
